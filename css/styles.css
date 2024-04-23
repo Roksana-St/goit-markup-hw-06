@@ -1089,8 +1089,7 @@ input {
     }
 
     .container-footer {
-        padding-left: 108px;
-        padding-right: 164px;
+        width: 584px;
     }
 
     .footer-exp {
@@ -1197,6 +1196,10 @@ input {
 
     .advantages-exp {
         width: calc((100% - 3 * 24px) / 4);
+    }
+
+    .advantage-name {
+        font-weight: 400;
     }
 
     .team {
